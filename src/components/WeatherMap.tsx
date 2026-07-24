@@ -1,7 +1,7 @@
 "use client";
 
 export default function WeatherMap({ lat, lon }: { lat: number; lon: number }) {
-  const embedUrl = `https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=${lat},${lon}&zoom=8`;
+  const embedUrl = `https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY}&q=${lat},${lon}&zoom=8`;
 
   return (
     <div className="card p-5 sm:p-6">
