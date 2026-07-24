@@ -1,0 +1,34 @@
+▲ Next.js 16.2.11 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.46:3000
+- Environments: .env.local
+✓ Ready in 3.5s
+
+○ Compiling / ...
+ GET / 200 in 21.3s (next.js: 20.7s, application-code: 650ms)
+ GET /api/weather?q=Auto%3Aip 200 in 2.9s (next.js: 1989ms, application-code: 889ms)
+ GET / 200 in 372ms (next.js: 33ms, application-code: 339ms)
+ GET /api/weather?q=Auto%3Aip 200 in 64ms (next.js: 21ms, application-code: 43ms)
+○ Compiling /api/search ...
+ GET /api/search?q=karachi 200 in 6.5s (next.js: 6.1s, application-code: 438ms)
+ GET / 200 in 2.9s (next.js: 467ms, application-code: 2.4s)
+ GET /api/weather?q=Auto%3Aip 200 in 792ms (next.js: 723ms, application-code: 70ms)
+ GET / 200 in 387ms (next.js: 35ms, application-code: 352ms)
+ GET /api/search?q=karachi 200 in 58ms (next.js: 15ms, application-code: 43ms)
+ GET /api/weather?q=Karachi 200 in 672ms (next.js: 18ms, application-code: 655ms)
+ GET /api/weather?q=London 200 in 965ms (next.js: 18ms, application-code: 947ms)
+ GET /api/search?q=New 200 in 395ms (next.js: 12ms, application-code: 383ms)
+✓ Compiled in 3.1s
+ GET / 200 in 1603ms (next.js: 902ms, application-code: 702ms)
+ GET / 200 in 310ms (next.js: 20ms, application-code: 290ms)
+ GET /api/weather?q=Auto%3Aip 200 in 1744ms (next.js: 148ms, application-code: 1596ms)
+ GET /api/search?q=karachi 200 in 803ms (next.js: 102ms, application-code: 701ms)
+ GET /api/weather?q=Karachi 200 in 40ms (next.js: 10ms, application-code: 29ms)
+✓ Compiled in 1071ms
+ GET / 200 in 1185ms (next.js: 732ms, application-code: 454ms)
+ GET / 200 in 1018ms (next.js: 189ms, application-code: 828ms)
+ GET /api/weather?q=Auto%3Aip 200 in 2.6s (next.js: 1039ms, application-code: 1560ms)
+✓ Compiled in 1178ms
+ GET / 200 in 593ms (next.js: 409ms, application-code: 184ms)
+✓ Compiled in 1618ms
+ GET / 200 in 2.6s (next.js: 1674ms, application-code: 958ms)
