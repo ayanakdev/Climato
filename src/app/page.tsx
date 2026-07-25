@@ -56,7 +56,7 @@ export default function Home() {
   const alerts = data?.alerts?.alert ?? [];
 
   return (
-    <div className="min-h-screen flex flex-col bg-bg-secondary">
+    <div className="min-h-screen flex flex-col bg-bg-secondary overflow-x-hidden">
       <Header onSearch={fetchWeather} loading={loading} />
 
       <main className="flex-1">

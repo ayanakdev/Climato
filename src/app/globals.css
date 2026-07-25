@@ -21,9 +21,16 @@
   --font-mono: var(--font-jetbrains);
 }
 
-* {
+*,
+*::before,
+*::after {
   scrollbar-width: thin;
   scrollbar-color: #cbd5e1 transparent;
+}
+
+html,
+body {
+  overflow-x: hidden;
 }
 
 body {
